@@ -1,0 +1,9 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+     <SPDXLicenseCollection xmlns="http://www.spdx.org/spdxdocs/spdx-v2.2">
+       <license isOsiApproved="false" licenseId="SCL-2.0" name="Synaptic Code License 2.0">
+         <crossRefs>
+           <crossRef>https://github.com/SeCuReDmE-main-dev/SCL-License</crossRef>
+         </crossRefs>
+         <text>
+           <titleText>Synaptic Code License 2.0 (SCL-2.0)</titleText>
+           <copyrightText>Copyright (c) 2025 Jean-Sébastien Beaulieu &amp; SeCuReDmE Initiative</copyrightText>
