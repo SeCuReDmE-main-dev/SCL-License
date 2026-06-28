@@ -7,6 +7,8 @@ The reason for excluding generic local AI routes from official school mode is st
 
 > **Development status.** This school tool is currently tagged **pre-alpha / in development**. External PRs are not evaluated for merge until the maintained tool reaches a stable, fully functional 100% classroom release after the pre-alpha phase. Issues and forks remain allowed, but official PR review is paused until that stability gate is met.
 
+> **SecuredMe Education visual reference.** This repository carries the shared SecuredMe Education visual package as a reference for the tool suite, not as a separate student-facing product identity. See [assets/securedme/education](assets/securedme/education).
+
 
 This repository is the canonical home for the SecuredMe educational license
 family.
