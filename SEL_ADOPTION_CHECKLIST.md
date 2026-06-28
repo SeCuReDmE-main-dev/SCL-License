@@ -1,8 +1,10 @@
-# SEL Adoption Checklist
+# SEL / SECL Adoption Checklist
 
-Before applying `LicenseRef-SEL-2.0` to a repository:
+Before applying `LicenseRef-SEL-2.0` or `LicenseRef-SECL-2.0` to a repository:
 
 - [ ] The project is educational, research-oriented, simulation-oriented, or supervised training-oriented.
+- [ ] Cybersecurity, fraud-awareness, safety, and abuse-prevention projects use `LicenseRef-SECL-2.0`.
+- [ ] General education projects use `LicenseRef-SEL-2.0`.
 - [ ] `LICENSE` contains the full SEL-2.0 text.
 - [ ] `NOTICE` contains maintainer attribution and ORCID.
 - [ ] `DISCLAIMER` is present.

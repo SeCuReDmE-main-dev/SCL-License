@@ -1,8 +1,8 @@
-# SEL Safety Policy
+# SEL / SECL Safety Policy
 
-SEL-covered projects are built for education and supervised review.
+SEL/SECL-covered projects are built for education and supervised review.
 
-Do not use SEL-covered material for:
+Do not use SEL/SECL-covered material for:
 
 - attack, intrusion, or unauthorized access;
 - theft, fraud, impersonation, or deception;

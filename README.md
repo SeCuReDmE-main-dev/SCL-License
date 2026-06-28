@@ -1,14 +1,26 @@
-# SEL-License
+# SecuredMe License Family
 
-SEL means **Secured Educational License**.
+This repository is the canonical home for the SecuredMe educational license
+family.
 
-This repository is the canonical home for the SecuredMe educational license family. It replaces the earlier SCL naming intent with a clearer school-centered name: **SEL-2.0**, identified in source headers as:
+The family has two current custom license identifiers:
+
+- **SEL-2.0**: Secured Educational License, for general educational tools.
+- **SECL-2.0**: Secured Educational Cybersecurity License, for cybersecurity,
+  fraud-awareness, safety, and abuse-prevention training tools.
+
+Use these source headers:
 
 ```text
 SPDX-License-Identifier: LicenseRef-SEL-2.0
+SPDX-License-Identifier: LicenseRef-SECL-2.0
 ```
 
-`LicenseRef-SEL-2.0` is a custom license identifier. It is not currently an OSI-approved license and is not currently listed in the SPDX License List. SPDX-compatible tooling may still reference it as a `LicenseRef-*` identifier when the full license text is included with the project.
+`LicenseRef-SEL-2.0` and `LicenseRef-SECL-2.0` are custom license
+identifiers. They are not currently OSI-approved licenses and are not currently
+listed in the SPDX License List. SPDX-compatible tooling may still reference
+them as `LicenseRef-*` identifiers when the full license text is included with
+the project.
 
 ## Maintainer Identity
 
@@ -22,7 +34,12 @@ The ORCID is included for attribution, provenance, and maintainer identity. It d
 
 ## Purpose
 
-SEL-2.0 is intended for educational software, classroom tooling, research scaffolds, simulation tools, and student/teacher learning environments.
+SEL-2.0 is intended for educational software, classroom tooling, research
+scaffolds, simulation tools, and student/teacher learning environments.
+
+SECL-2.0 is intended for educational cybersecurity, fraud-awareness,
+algorithm-safety, abuse-prevention, and defensive training environments. It is
+not a license for attack tooling.
 
 The license and accompanying policy documents are designed to keep three things visible:
 
@@ -40,19 +57,23 @@ SEL is not legal advice. Schools, organizations, and commercial users should obt
 
 ## Files
 
-- `LICENSE` - the Secured Educational License 2.0 text.
+- `LICENSE` - family index and default repository notice.
+- `LICENSE-SEL-2.0` - Secured Educational License 2.0.
+- `LICENSE-SECL-2.0` - Secured Educational Cybersecurity License 2.0.
 - `NOTICE` - attribution and maintainer identity.
 - `DISCLAIMER` - no warranty, no misuse responsibility, and third-party boundary.
 - `SAFETY.md` - forbidden misuse and educational-use guardrails.
-- `USAGE.md` - how to apply `LicenseRef-SEL-2.0`.
+- `USAGE.md` - how to apply the license identifiers.
 - `SEL_ADOPTION_CHECKLIST.md` - repo adoption checklist.
 
 ## Relationship To SPDX
 
 This repository began from SPDX license-list material as a reference point for license structure and naming conventions. SEL is not a replacement for the SPDX License List and does not claim SPDX approval.
 
-For SPDX-compatible projects, include the full SEL license text in `LICENSE` and use:
+For SPDX-compatible projects, include the full selected license text in
+`LICENSE` and use one of:
 
 ```text
 SPDX-License-Identifier: LicenseRef-SEL-2.0
+SPDX-License-Identifier: LicenseRef-SECL-2.0
 ```
