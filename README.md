@@ -1,5 +1,8 @@
 # SecuredMe License Family
 
+> **Development status.** This school tool is currently tagged **pre-alpha / in development**. External PRs are not evaluated for merge until the maintained tool reaches a stable, fully functional 100% classroom release after the pre-alpha phase. Issues and forks remain allowed, but official PR review is paused until that stability gate is met.
+
+
 This repository is the canonical home for the SecuredMe educational license
 family.
 
@@ -77,3 +80,5 @@ For SPDX-compatible projects, include the full selected license text in
 SPDX-License-Identifier: LicenseRef-SEL-2.0
 SPDX-License-Identifier: LicenseRef-SECL-2.0
 ```
+
+

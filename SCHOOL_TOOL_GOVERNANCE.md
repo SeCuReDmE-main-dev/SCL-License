@@ -12,3 +12,7 @@ Cloud, generic uncensored local AI, and unknown agents.
 
 Forks are allowed according to the selected license text. The official supported
 school version is the reviewed maintainer version.
+## Development Stability Gate
+This repository is tagged `pre-alpha` and `in-development`. External PRs are not evaluated for merge before the official school tool is stable and fully functional for classroom use. Until that gate is met, outside contributors should open issues or build local forks/plugins; maintainers may still push internal stabilization commits.
+
+
