@@ -2,8 +2,8 @@
 
 This repository maintains the SEL/SECL license family:
 
-- `LicenseRef-SEL-2.0`: Secured Educational License 2.0.
-- `LicenseRef-SECL-2.0`: Secured Educational Cybersecurity License 2.0.
+- SEL-2.0: Secured Educational License 2.0.
+- SECL-2.0: Secured Educational Cybersecurity License 2.0.
 
 Contributions must keep the license family clear, bounded, educational, and
 misuse-aware.
@@ -12,8 +12,7 @@ misuse-aware.
 
 - typo fixes and clarity improvements;
 - safer attribution, NOTICE, DISCLAIMER, or SAFETY wording;
-- examples showing how to apply `LicenseRef-SEL-2.0` or
-  `LicenseRef-SECL-2.0`;
+- examples showing how to apply SEL-2.0 or SECL-2.0;
 - adoption checklist improvements;
 - documentation that reduces ambiguity for schools, teachers, students, and
   supervised young adults.

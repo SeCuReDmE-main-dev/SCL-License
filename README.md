@@ -18,24 +18,23 @@ The reason for excluding generic local AI routes from official school mode is st
 This repository is the canonical home for the SecuredMe educational license
 family.
 
-The family has two current custom license identifiers:
+The family has two current public license names:
 
 - **SEL-2.0**: Secured Educational License, for general educational tools.
 - **SECL-2.0**: Secured Educational Cybersecurity License, for cybersecurity,
   fraud-awareness, safety, and abuse-prevention training tools.
 
-Use these source headers:
+When a tool requires SPDX-compatible metadata, use these local technical
+references only if the full license text is shipped in the repository:
 
 ```text
-SPDX-License-Identifier: LicenseRef-SEL-2.0
-SPDX-License-Identifier: LicenseRef-SECL-2.0
+LicenseRef-SEL-2.0
+LicenseRef-SECL-2.0
 ```
 
-`LicenseRef-SEL-2.0` and `LicenseRef-SECL-2.0` are custom license
-identifiers. They are not currently OSI-approved licenses and are not currently
-listed in the SPDX License List. SPDX-compatible tooling may still reference
-them as `LicenseRef-*` identifiers when the full license text is included with
-the project.
+Do not present SEL-2.0 or SECL-2.0 as OSI-approved or SPDX-listed licenses.
+The public-facing license name is SEL-2.0 or SECL-2.0. `LicenseRef-*` is only a
+local metadata bridge for tools that understand custom license references.
 
 ## Maintainer Identity
 
@@ -86,11 +85,12 @@ SEL is not legal advice. Schools, organizations, and commercial users should obt
 This repository began from SPDX license-list material as a reference point for license structure and naming conventions. SEL is not a replacement for the SPDX License List and does not claim SPDX approval.
 
 For SPDX-compatible projects, include the full selected license text in
-`LICENSE` and use one of:
+`LICENSE`. If local custom license references are needed by tooling, use one of
+these metadata references and point it back to the full text:
 
 ```text
-SPDX-License-Identifier: LicenseRef-SEL-2.0
-SPDX-License-Identifier: LicenseRef-SECL-2.0
+LicenseRef-SEL-2.0
+LicenseRef-SECL-2.0
 ```
 
 

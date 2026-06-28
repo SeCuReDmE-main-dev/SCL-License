@@ -2,18 +2,19 @@ SecuredMe License Family
 
 This repository defines two custom educational license texts:
 
-- Secured Educational License 2.0: `LicenseRef-SEL-2.0`
-- Secured Educational Cybersecurity License 2.0: `LicenseRef-SECL-2.0`
+- Secured Educational License 2.0: SEL-2.0
+- Secured Educational Cybersecurity License 2.0: SECL-2.0
 
 See:
 
 - `LICENSE-SEL-2.0`
 - `LICENSE-SECL-2.0`
 
-Both license identifiers are custom `LicenseRef-*` identifiers. They are not
-currently OSI-approved licenses and are not currently listed in the SPDX License
-List. When using either identifier, include the full selected license text in
-the target repository.
+Both licenses are custom SecuredMe licenses. They are not currently
+OSI-approved licenses and are not currently listed in the SPDX License List.
+LicenseRef-SEL-2.0 and LicenseRef-SECL-2.0 may be used only as local metadata
+references when the full selected license text is included in the target
+repository.
 
 Primary author and maintainer:
 

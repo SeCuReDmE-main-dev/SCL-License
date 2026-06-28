@@ -4,15 +4,16 @@ This repository originally used the SPDX license-list XML repository as a
 reference for license identifier conventions and `LicenseRef-*` usage.
 
 SEL/SECL are not part of the SPDX License List and are not OSI-approved at this
-time. The correct current identifiers are:
+time. The correct current public names are:
 
 ```text
-LicenseRef-SEL-2.0
-LicenseRef-SECL-2.0
+SEL-2.0
+SECL-2.0
 ```
 
-Projects using either identifier must include the full selected license text in
-their repository.
+Use `LicenseRef-SEL-2.0` and `LicenseRef-SECL-2.0` only as local metadata
+references when tooling requires custom license keys and the full selected
+license text is included with the project.
 
 Useful primary references:
 

@@ -16,15 +16,16 @@ Add these files to the project root:
 - `DISCLAIMER`
 - `SAFETY.md`
 
-For source files that support SPDX headers, use:
+Use the public license name in README and user-facing docs:
 
 ```text
-SPDX-License-Identifier: LicenseRef-SEL-2.0
-SPDX-License-Identifier: LicenseRef-SECL-2.0
+Secured Educational License 2.0 (SEL-2.0)
+Secured Educational Cybersecurity License 2.0 (SECL-2.0)
 ```
 
-Because these identifiers are not currently listed by SPDX, include the full
-selected license text in the repository.
+If a metadata tool requires a custom SPDX-style reference, use `LicenseRef-*`
+only as a local technical key and keep the full selected license text in the
+repository.
 
 ## README Wording
 
@@ -32,19 +33,18 @@ Recommended wording:
 
 ```text
 This project is licensed under the Secured Educational License 2.0
-(`LicenseRef-SEL-2.0`). It is provided for education, research, simulation, and
-supervised learning. Misuse, unsafe private forks, and unsupported provider
-routes are not maintained or endorsed by the official school version.
+(SEL-2.0). It is provided for education, research, simulation, and supervised
+learning. Misuse, unsafe private forks, and unsupported provider routes are not
+maintained or endorsed by the official school version.
 ```
 
 For cybersecurity education:
 
 ```text
 This project is licensed under the Secured Educational Cybersecurity License 2.0
-(`LicenseRef-SECL-2.0`). It is provided for defensive education, fraud-awareness,
-simulation, and supervised cyber training. Misuse, unsafe private forks, and
-offensive workflows are not maintained or endorsed by the official school
-version.
+(SECL-2.0). It is provided for defensive education, fraud-awareness, simulation,
+and supervised cyber training. Misuse, unsafe private forks, and offensive
+workflows are not maintained or endorsed by the official school version.
 ```
 
 ## Maintainer Attribution
