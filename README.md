@@ -1,36 +1,58 @@
-[![.github/workflows/deploy.yaml](https://github.com/spdx/license-list-XML/actions/workflows/deploy.yaml/badge.svg)](https://github.com/spdx/license-list-XML/actions/workflows/deploy.yaml)[![.github/workflows/validate.yaml](https://github.com/spdx/license-list-XML/actions/workflows/validate.yaml/badge.svg)](https://github.com/spdx/license-list-XML/actions/workflows/validate.yaml)
+# SEL-License
 
-This repository contains the XML source and schema files used to generate the authoritative, supported SPDX list file formats, including the web pages you see at [spdx.org/licenses](https://spdx.org/licenses/) and other generated data formats found in the [SPDX license-list-data repository](https://github.com/spdx/license-list-data).
+SEL means **Secured Educational License**.
 
-# How we work
-We welcome participants and contributions! The SPDX License List is maintained by the SPDX Legal Team. Work and discussion is done via this Github repo, meetings, and the spdx-legal mailing list:
-* **mailing list**: Please introduce yourself and let us know a bit about your interest in SPDX! The mailing list is our traditional form of communication. To join the SPDX Legal Team mailing list, send an email to `Spdx-legal+subscribe@lists.spdx.org` or visit https://lists.spdx.org/g/Spdx-legal (where you can also see the list's archives).
-* **calls**: We use conference calls to make decisions on topics and issues that may be difficult to discuss only via email or GitHub; or to review licenses. These calls are on the second and fourth Thursday of each month at 12:00 US Eastern Time. A reminder and agenda is (usually) sent prior to the calls to the SPDX-legal mailing list. Meeting minutes for the calls are in the [SPDX meetings repo](https://github.com/spdx/meetings/tree/master/legal).
-* **this GitHub repo**: We use this repository for comments, issues, and pull requests related to specific changes to the files that comprise the SPDX License List. This includes new licenses, updates to an existing license, improvements to documentation and other changes.
+This repository is the canonical home for the SecuredMe educational license family. It replaces the earlier SCL naming intent with a clearer school-centered name: **SEL-2.0**, identified in source headers as:
 
-If you are just getting to know the SPDX License List, check out our [FAQ](DOCS/faq.md)
+```text
+SPDX-License-Identifier: LicenseRef-SEL-2.0
+```
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for ways you can contribute.
+`LicenseRef-SEL-2.0` is a custom license identifier. It is not currently an OSI-approved license and is not currently listed in the SPDX License List. SPDX-compatible tooling may still reference it as a `LicenseRef-*` identifier when the full license text is included with the project.
 
-# SPDX License List
-## What
-The [SPDX License List](https://spdx.org/licenses/) is an integral part of the SPDX Specification. The SPDX License List itself is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation. The purpose of the SPDX License List is to enable easy and efficient identification of such licenses and exceptions in an SPDX document, in source files or elsewhere. The SPDX License List includes a standardized short identifier, full name, vetted license text including matching guidelines markup as appropriate, and a canonical permanent URL for each license and exception.
+## Maintainer Identity
 
-## Why
-The purpose of the SPDX License List is to enable efficient and reliable identification of such licenses and exceptions in an SPDX document, in source files or elsewhere. The SPDX short identifiers combined with the matching guidelines ensures that anyone can reliably know exactly what license text is being referred to for a given SPDX identifier.
+Primary author and maintainer:
 
-## How
-* For more about how SPDX license identifiers are used in an SPDX document, a software bill of materials, or other places that store license data, see [SPDX Specification](https://spdx.org/specifications), Clauses 7, 8, and 10 and Annexes B, D, and E.
-* For examples of use of SPDX license identifiers in source code, see https://spdx.org/ids.
-Please note, a license not on the SPDX License List can be included in an SPDX document by using a 'LicenseRef-' as the license name’s prefix and including the full license text as per the specification. 
+Jean-Sebastien Beaulieu  
+ORCID: https://orcid.org/0009-0007-2904-0443  
+SecuredMe
 
-## When 
-* SPDX License List releases are done on a quarterly basis (more or less) at the end of January, April, July, and October. We schedule our License List releases one month behind the usual quarterly calendar cadence to accommodate the reality that many people contributing have other commitments at quarter-end.
-* See [RELEASE-NOTES.md](RELEASE-NOTES.md) for a summary of each release
-* All PRs to be included as part of release must be merged 1 week prior to release date to allow time for actual release work
-* Any new issues raised within the month of the next release will likely be tagged for the following release, unless it is an easy-to-resolve issue
+The ORCID is included for attribution, provenance, and maintainer identity. It does not create an endorsement by ORCID, OpenAI, Google, or any other third party.
 
-# Consuming License Data from this Repository
-Output files in the [SPDX license-list-data repository](https://github.com/spdx/license-list-data) are generated from the XML source in this repository.  These output files are stable and well-supported, and make the License List available in RDFa, HTML, text, and JSON formats. You can use [SPDX tools](https://github.com/spdx/tools) (or create your own) to consume the supported formats of the license list.
+## Purpose
 
-Please note that the XML format for this repository is internal to the SPDX legal team and is subject to change, so any direct consumers of _this_ repository's source files should expect occasional, backwards-incompatible changes.
+SEL-2.0 is intended for educational software, classroom tooling, research scaffolds, simulation tools, and student/teacher learning environments.
+
+The license and accompanying policy documents are designed to keep three things visible:
+
+- the software is open for learning, review, sharing, and improvement;
+- the maintained school version is supported only through reviewed official changes;
+- misuse remains the responsibility of the person or organization misusing the software.
+
+## Important Boundaries
+
+SEL does not authorize harmful use. Do not use SEL-covered projects for attack, theft, fraud, impersonation, bypass, unsafe surveillance, criminal automation, or unsupervised safety-critical decisions.
+
+SEL does not make Jean-Sebastien Beaulieu, SecuredMe, OpenAI/Codex, Google/Gemini/Antigravity, contributors, schools, or reviewers responsible for misuse, broken private forks, illegal deployments, or unsafe modifications.
+
+SEL is not legal advice. Schools, organizations, and commercial users should obtain qualified legal review before adopting it in production.
+
+## Files
+
+- `LICENSE` - the Secured Educational License 2.0 text.
+- `NOTICE` - attribution and maintainer identity.
+- `DISCLAIMER` - no warranty, no misuse responsibility, and third-party boundary.
+- `SAFETY.md` - forbidden misuse and educational-use guardrails.
+- `USAGE.md` - how to apply `LicenseRef-SEL-2.0`.
+- `SEL_ADOPTION_CHECKLIST.md` - repo adoption checklist.
+
+## Relationship To SPDX
+
+This repository began from SPDX license-list material as a reference point for license structure and naming conventions. SEL is not a replacement for the SPDX License List and does not claim SPDX approval.
+
+For SPDX-compatible projects, include the full SEL license text in `LICENSE` and use:
+
+```text
+SPDX-License-Identifier: LicenseRef-SEL-2.0
+```
