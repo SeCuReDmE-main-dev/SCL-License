@@ -1,2 +1,0 @@
-# used for validate-schema.py
-xmlschema
