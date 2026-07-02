@@ -20,3 +20,4 @@
 *.txt~ # 
 *.md~  # These 3 are overkill but meh, no harm done
 *.xml~ # 
+site/
